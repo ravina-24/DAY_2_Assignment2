@@ -6,20 +6,46 @@ namespace DAY_2_Assignment2
     {
         static void Main(string[] args)
         {
+          
 
-            
+                int input;
+                Console.WriteLine("Enter input \n" +
+                    "1.AddTwoDiceRoll\n" +
+                    "2.OperationOfThreeInputs\n" +
+                    "3.OperationOfthreeDoubleinputs\n" +
+                    "4.Find distance\n" );
 
-            SumOfTWoDice s = new SumOfTWoDice();
-            s.AddDice();
+                input = Convert.ToInt32(Console.ReadLine());
 
-            IntOpt i = new IntOpt();
-            i.AddInput();
+                switch (input)
+                {
+                    case 1:
+                        SumOfTWoDice s = new SumOfTWoDice();
+                        s.AddDice();
+                        break;
 
-            DoubleOpt d = new DoubleOpt();
-            d.CheckOperation();
+                    case 2:
+                        IntOpt i = new IntOpt();
+                        i.AddInput();
+                        break;
 
-            Distance distance = new Distance();
-            distance.FindDistance();
+                    case 3:
+                        DoubleOpt d = new DoubleOpt();
+                        d.CheckOperation();
+                        break;
+
+                    case 4:
+                        Distance distance = new Distance();
+                        distance.FindDistance();
+                        break;
+
+                    
+                    default:
+                        Console.WriteLine(" Invalid input ");
+                        break;
+                }
+           
+
         }
     }
 }
