@@ -6,7 +6,8 @@ namespace DAY_2_Assignment2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            
 
             SumOfTWoDice s = new SumOfTWoDice();
             s.AddDice();
@@ -16,6 +17,9 @@ namespace DAY_2_Assignment2
 
             DoubleOpt d = new DoubleOpt();
             d.CheckOperation();
+
+            Distance distance = new Distance();
+            distance.FindDistance();
         }
     }
 }
