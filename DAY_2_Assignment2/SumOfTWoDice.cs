@@ -18,6 +18,7 @@ namespace DAY_2_Assignment2
             int Sum = DiceRoll1 + DiceRoll2;
             Console.WriteLine("sum of two dice Roll = " +Sum);
 
+
             Console.ReadLine();
         }
     }
