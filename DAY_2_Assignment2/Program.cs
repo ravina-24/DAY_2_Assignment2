@@ -13,6 +13,9 @@ namespace DAY_2_Assignment2
 
             IntOpt i = new IntOpt();
             i.AddInput();
+
+            DoubleOpt d = new DoubleOpt();
+            d.CheckOperation();
         }
     }
 }
