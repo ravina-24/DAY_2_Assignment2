@@ -8,8 +8,8 @@ namespace DAY_2_Assignment2
         {
             Console.WriteLine("Hello World!");
 
-            //SumOfTWoDice s = new SumOfTWoDice();
-            //s.AddDice();
+            SumOfTWoDice s = new SumOfTWoDice();
+            s.AddDice();
 
             IntOpt i = new IntOpt();
             i.AddInput();
